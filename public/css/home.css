@@ -1,0 +1,114 @@
+#page-home{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background: #ebf2f5;
+    flex-direction:column;
+}
+
+header{
+    width:100%;
+    display:flex;
+    align-items: center;
+    background-color: #494949;
+    padding: 4rem;
+}
+
+#myname{
+    font: 400 7.2rem/1rem 'Staatliches', cursive;
+}
+
+.menubar{
+    margin-left: 7rem;
+}
+
+.menubar a{
+    border: 0;
+    border-radius: 2.3rem;
+    padding: 1.6rem;
+    outline: none;
+    background-color: #f9c22d;
+    transition: background .5s, color .5s;    
+    text-decoration: none;
+    color: white;
+}
+
+.menubar a:hover{
+    background-color: #fff463;
+    color: black;
+}
+
+.menubar a + a{
+    margin-left: 2rem;
+}
+
+main{
+    margin-top: 2rem;
+}
+
+#content{
+    width: 90rem;
+    border: 1px solid #f9c22d;
+    border-radius: 3rem;
+    padding: 2rem;    
+    background: #ffffff;
+    color: #4d6f80;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#myphoto{
+    display: flex;
+    height: 20vh;
+    overflow: hidden;
+    border-radius: 10rem;
+}
+
+#myphoto > img{
+    object-fit: cover;
+}
+
+#description{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description p {
+    margin-top: 1.5rem;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+
+#description p a{
+    text-decoration: none;
+    color: #f9c22d;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    padding: 2rem;
+    background-color: #494949;
+}
+
+.footerbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+footer a{    
+    display: flex;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+}
+
+footer a img {
+    object-fit: fill;
+}
