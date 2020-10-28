@@ -54,14 +54,18 @@ main{
     background: #ffffff;
     color: #4d6f80;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 5fr;
 }
 
 #myphoto{
     display: flex;
-    height: 20vh;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
-    border-radius: 10rem;
+    border-radius: 6rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
 }
 
 #myphoto > img{
