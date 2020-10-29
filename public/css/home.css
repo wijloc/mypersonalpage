@@ -30,7 +30,8 @@ header{
     background-color: #f9c22d;
     transition: background .5s, color .5s;    
     text-decoration: none;
-    color: white;
+    color: #4d6f80;
+    font-weight: 700;
 }
 
 .menubar a:hover{
