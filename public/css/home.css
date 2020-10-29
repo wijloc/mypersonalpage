@@ -58,9 +58,7 @@ main{
 }
 
 #myphoto{
-    display: flex;
-    height: 100%;
-    width: 100%;
+    display: flex;        
     overflow: hidden;
     border-radius: 6rem;
     align-items: center;
@@ -69,7 +67,7 @@ main{
 }
 
 #myphoto > img{
-    object-fit: cover;
+    height: 100%;
 }
 
 #description{
@@ -114,5 +112,5 @@ footer a{
 }
 
 footer a img {
-    object-fit: fill;
+    width: 100%;
 }
