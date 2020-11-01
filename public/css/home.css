@@ -1,5 +1,8 @@
-body{
-    background: #494949;
+body{    
+    background: #494949;    
+    display:flex;
+    flex-direction: column;
+    min-width: 900px;
 }
 
 .content{
@@ -12,7 +15,7 @@ body{
     display:flex;
     align-items: center;
     justify-content:space-between;
-    padding: 2rem 4rem;
+    padding: 2rem 0;
 }
 
 #main-header .content .myname{
@@ -53,6 +56,10 @@ body{
 /*content*/
 #main-content{
     background-color: #ebf2f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
 }
 
 #main-content .content{
@@ -93,30 +100,21 @@ body{
     text-decoration: none;
     color: #dba50f;
 }
+/* footer */
 
-footer{
-    position: fixed;
+#footer .footerbar{    
     display: flex;
-    justify-content: center;
-    width: 100%;
-    bottom: 0;
-    padding: 2rem;
-    background-color: #494949;
+    align-items: center;
+    justify-content: center;    
+    padding: 5px 0;
 }
 
-.footerbar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+#footer .footerbar a{
+    margin: 0 5px;
+    text-decoration: none;    
 }
 
-footer a{    
-    display: flex;
+#footer .footerbar a img{
     width: 24px;
-    height: 24px;
-    text-decoration: none;
-}
-
-footer a img {
-    width: 100%;
+    height: 24px;    
 }
