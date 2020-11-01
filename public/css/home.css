@@ -1,5 +1,4 @@
 body{    
-    background: #494949;    
     display:flex;
     flex-direction: column;
     min-width: 900px;
@@ -13,6 +12,7 @@ body{
 /*header*/
 #main-header{
     padding: 0 2rem;
+    background: #494949;
 }
 #main-header .content{    
     display:flex;
@@ -107,6 +107,9 @@ body{
 }
 /* footer */
 
+#footer{
+    background: #494949;
+}
 #footer .footerbar{    
     display: flex;
     align-items: center;
