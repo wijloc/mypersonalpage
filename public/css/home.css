@@ -1,4 +1,4 @@
-#body{
+body{
     background: #494949;
 }
 
@@ -7,6 +7,7 @@
     margin: 0 auto;
 }
 
+/*header*/
 #main-header .content{    
     display:flex;
     align-items: center;
@@ -49,57 +50,48 @@
     background-color: #fff463;
 }
 
-
-#main-content .content{
+/*content*/
+#main-content{
     background-color: #ebf2f5;
 }
 
-#main-content{
-    background-color: #fff;
-}
+#main-content .content{
+    background: #fff;
+    display: flex;
 
-
-
-#content{
-    width: 90rem;
     border: 1px solid #f9c22d;
     border-radius: 3rem;
     padding: 2rem;    
-    background: #ffffff;
-    color: #4d6f80;
-    display: grid;
-    grid-template-columns: 2fr 5fr;
 }
 
-#myphoto{
-    display: flex;        
+#main-content .content .myphoto{
+    width: 480px;
     overflow: hidden;
-    border-radius: 6rem;
-    align-items: center;
-    justify-content: center;
-    padding-left: 4rem;
+    position: relative;
+    border-radius: 16px;
 }
 
-#myphoto > img{
-    height: 100%;
+#main-content .content .myphoto img{    
+    position: absolute;
+    left: -165px;
 }
 
-#description{
-    margin-left: 2rem;
+#main-content .content .description{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;    
+    
+    color: #4d6f80;
+    margin-left: 2rem;        
 }
 
-#description p {
+#main-content .content .description p{
     margin-top: 1.5rem;
     line-height: 2.4rem;
     text-align: justify;
 }
-
-#description p a{
+#main-content .content .description p a{
     text-decoration: none;
-    color: #f9c22d;
+    color: #dba50f;
 }
 
 footer{
