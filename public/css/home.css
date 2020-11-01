@@ -81,11 +81,14 @@ body{
     overflow: hidden;
     position: relative;
     border-radius: 16px;
+    max-height: 551px;
+    min-width: 265px;
 }
 
 #main-content .content .myphoto img{    
     position: absolute;
     left: -165px;
+    top: -78px;
 }
 
 #main-content .content .description{
