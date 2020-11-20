@@ -16,6 +16,7 @@ server
 
 //criar rotas da aplicacao
 .get("/", pages.index)
+.get("/portifolio", pages.portfolio)
 
 //ligar o servidor
 server.listen(process.env.PORT || 5500);

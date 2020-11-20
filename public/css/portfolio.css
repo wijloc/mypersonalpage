@@ -1,0 +1,17 @@
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li{
+  margin-top: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+#main-content .content .description{
+  min-width: 100%;
+}
